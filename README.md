@@ -32,7 +32,7 @@ yarn run test
 👤 **Benjamin Fian**
 
 - Github: [@BenjaminFian2](https://github.com/BenjaminFian2)
-- LinkedIn: [@Benjamin Fian](https://linkedin.com/in/Benjamin_Fian)
+- LinkedIn: [@Benjamin Fian](https://www.linkedin.com/in/benjamin-fian-850a33181/)
 
 ## Show your support
 
