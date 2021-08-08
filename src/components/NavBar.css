@@ -1,0 +1,74 @@
+.NavBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 100px;
+}
+
+.NavBar nav {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.NavBar,
+.NavBar a {
+  color: white;
+}
+
+.NavBar a {
+  text-decoration: none;
+}
+
+.NavBar > nav > ul {
+  display: flex;
+  font-size: 40px;
+}
+
+.NavBar > nav > ul > ul {
+  min-width: 150px;
+}
+
+.NavBar > nav > ul > li,
+.NavBar > nav > ul > ul {
+  margin: 0 20px;
+}
+
+.NavBar > nav > ul > ul li {
+  display: none;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.NavBar > nav > ul > ul:hover li {
+  display: inherit;
+}
+
+.NavBar > nav li:hover,
+.NavBar > nav > ul > ul {
+  cursor: pointer;
+}
+
+.NavBar .active {
+  /* text-decoration: underline red; */
+  border-bottom: 2px solid #ee171f;
+}
+
+@media (max-width: 767px) AND (min-width: 320px) {
+  .NavBar > nav > ul {
+    font-size: 20px;
+  }
+
+  .NavBar > nav > ul > li,
+  .NavBar > nav > ul > ul {
+    margin: 0 10px;
+  }
+
+  .NavBar > nav > ul > ul li {
+    font-size: 15px;
+  }
+
+  .NavBar > nav > ul > ul {
+    min-width: 100px;
+  }
+}

@@ -1,0 +1,21 @@
+.CharacterComics {
+  display: flex;
+  flex-direction: column;
+}
+
+.CharacterComics-containers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.CharacterComics-img-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.CharacterComics-img-container img {
+  width: 300px;
+}

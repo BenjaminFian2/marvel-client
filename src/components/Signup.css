@@ -1,0 +1,85 @@
+.Signup {
+  display: flex;
+  justify-content: center;
+}
+
+.Signup-container {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+
+.Signup-form > input {
+  border: none;
+  border-bottom: 2px solid #ee171f;
+  height: 35px;
+  margin-bottom: 20px;
+  width: 310px;
+  font-size: 16px;
+}
+
+.Signup-form > input:focus {
+  outline: 2px solid #ee171f;
+}
+
+.Signup-checkbox-container {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.Signup-checkbox-container > div {
+  display: flex;
+  padding: 10px;
+}
+
+.Signup-form input[type="checkbox"] {
+  transform: scale(2);
+  margin-right: 20px;
+}
+
+.Signup-form input[type="checkbox"]:hover,
+.Signup-form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.Signup-form p,
+.Login-form p {
+  text-align: center;
+  color: red;
+}
+
+.Signup-checkbox-container div span {
+  font-size: 18px;
+}
+
+.Signup-checkbox-container p {
+  text-align: left;
+  color: #999;
+  font-size: 13px;
+  margin: 12px 0;
+}
+
+.Signup-form input[type="submit"] {
+  background-color: #ee171f;
+  height: 45px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  margin: 20px 0 0;
+}
+
+.Signup-redirect {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.Signup-redirect:hover {
+  cursor: pointer;
+}

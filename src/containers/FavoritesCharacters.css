@@ -1,0 +1,11 @@
+.FavoritesCharacters {
+  display: flex;
+  flex-direction: column;
+}
+
+.FavoritesCharacters-containers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

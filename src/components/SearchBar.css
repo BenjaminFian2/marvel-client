@@ -1,0 +1,35 @@
+.SearchBar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchBar-input {
+  width: 500px;
+  padding-left: 40px;
+  background-color: #f5f6f7;
+  border-radius: 5px;
+  height: 37px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.SearchBar-icon-search {
+  position: absolute;
+  left: 7px;
+  top: 11px;
+}
+
+@media (max-width: 1024px) AND (min-width: 768px) {
+  .SearchBar-input {
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) AND (min-width: 320px) {
+  .SearchBar-input {
+    width: 300px;
+    height: 37px;
+  }
+}

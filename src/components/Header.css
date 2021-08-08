@@ -1,0 +1,86 @@
+.Header {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #131414;
+}
+
+.Header img {
+  height: 80px;
+}
+
+.Header button {
+  height: 30px;
+  width: 115px;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  margin: 20px;
+}
+
+.Header button:hover {
+  cursor: pointer;
+}
+
+.Header-register-button {
+  background-color: #ee171f;
+  color: white;
+  border: none;
+}
+
+.Header-login-button {
+  background-color: #fff;
+  color: #ee171f;
+  border: 1px solid #ee171f;
+}
+
+.Header-signout-button {
+  background-color: #fff;
+  color: #ee171f;
+  border: 1px solid #ee171f;
+}
+
+.Header-register-button:hover {
+  background-color: white;
+  color: #ee171f;
+  border: 1px solid #ee171f;
+}
+
+.Header-login-button:hover {
+  background-color: #ee171f;
+  color: #fff;
+}
+
+.Header-signout-button:hover {
+  background-color: #ee171f;
+  color: #fff;
+}
+
+/*responsive*/
+
+@media (max-width: 1024px) AND (min-width: 768px) {
+  .Header img {
+    height: 50px;
+  }
+}
+
+@media (max-width: 767px) AND (min-width: 320px) {
+  .Header {
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .Header img {
+    height: 50px;
+  }
+
+  .Header button {
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    margin: 10px;
+  }
+}
