@@ -7,14 +7,12 @@
 
 > Marvel clone as part of a project with bootcamp : le reacteur
 
-### 🏠 [Homepage](Characters)
-
-### ✨ [Demo](https://benalgo-marvel-client.netlify.app)
+### 🏠 [Homepage](https://benalgo-marvel-client.netlify.app)
 
 ## Install
 
 ```sh
-yarn 
+yarn
 ```
 
 ## Usage
@@ -33,12 +31,13 @@ yarn run test
 
 👤 **Benjamin Fian**
 
-* Github: [@BenjaminFian2](https://github.com/BenjaminFian2)
-* LinkedIn: [@Benjamin Fian](https://linkedin.com/in/Benjamin Fian)
+- Github: [@BenjaminFian2](https://github.com/BenjaminFian2)
+- LinkedIn: [@Benjamin Fian](https://linkedin.com/in/Benjamin Fian)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
